@@ -52,7 +52,7 @@ public class WebSecurityConfig {
       //React 애플리케이션이 실행되는 출처에서 오는 요청을 허용
       configuration.setAllowedOrigins(Arrays.asList("http://localhost:3000",
     		  "http://app.todo-app-devlance.store/",
-           "https://app.todo-app-devlance.store/));
+           "https://app.todo-app-devlance.store/"));
       //HTTP메서드 허용
       configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
       //모든 헤더를 허용
